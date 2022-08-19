@@ -1,0 +1,46 @@
+[abc]-->a or b or c             
+
+[^abc]--->any character except a,b,c   
+
+[a-z] --->a to z  
+
+[A-Z]--->A to Z
+
+[a-z A-Z] --->a to z,A to Z  
+
+[0-9] --->0 to 9  
+
+
+Quantifiers
+------------
+
+[ ]?  -->Occurs 0 or 1 times     // -abc 
+
+[ ]+  --->occurs 1 or more time //a ab
+
+[ ]* --->occurs 0 or more times 
+
+[ ]{n} --->occurs n times -->ex: 5 times ///[a-z]{3} "com"
+
+[] {n,} -->occurs n or more times
+
+[] {x,y} --> occurs atleat x times but less than y times
+
+()     -->Group regular exp  (com) in com
+
+
+
+Regex metacharacter (short forms)
+--------------------
+
+\d  [0-9] //
+
+\D  [^0-9]
+
+\w  [a-z A-z _ 0-9] 
+
+\W  [^\w]
+
+
+
+\ tells comp to trear following char as search char for ex: +,-
