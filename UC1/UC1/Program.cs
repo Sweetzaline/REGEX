@@ -5,7 +5,7 @@ namespace UC1to9
 {
     class Program
     {
-        public static string REGEX_PATTERN = "^[A-Z]{1}[a-zA-Z]{2,}";
+        public static string REGEX_PATTERN = "^[A-Z]{1}[a-zA-Z]{6,}";
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration Problems");
@@ -73,3 +73,13 @@ namespace UC1to9
 
     }
 }
+//User Registration Problems
+//Name is Valid : Isweety
+//Enter Last Name: Isweety
+//Name is Valid : Isweety
+//Enter E-mail: abc.g @gmail.com
+//Email is valid : abc.g @gmail.com
+//Enter Mobile_NO: 91 1111111111
+//Mobile is valid : 91 1111111111
+//Enter Password: A0$sssssss1
+//True
